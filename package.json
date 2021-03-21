@@ -7,7 +7,7 @@
     "ng": "ng",
     "start": "ng serve",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "cd cliente && ng build --prod && cd.. && node index.js",
+    "build": "cd cliente && ng build --prod",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
