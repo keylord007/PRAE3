@@ -18,7 +18,7 @@ mongoose.connect(config.db_uri, { useNewUrlParser: true, useUnifiedTopology: tru
 });
 
 //cors
-app.use(cors({ origin: "http://localhost:4200" }));
+app.use(cors({ origin: "https://prae2303.herokuapp.com/" }));
 
 // Body parser 
 app.use(bodyParser.urlencoded({ limit: '100mb', extended: false }));
